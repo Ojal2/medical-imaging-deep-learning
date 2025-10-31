@@ -1,0 +1,24 @@
+# Python cache and venv
+__pycache__/
+*.pyc
+mlenv/
+venv/
+.env
+
+# Model weights
+*.pth
+*.pt
+models/
+BioMistral/
+
+# Streamlit cache
+.streamlit/
+.cache/
+
+# Data files
+data/
+*.zip
+
+# System files
+.DS_Store
+Thumbs.db

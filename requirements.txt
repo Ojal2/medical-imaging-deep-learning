@@ -1,0 +1,12 @@
+torch
+torchvision
+transformers
+streamlit
+pillow
+scikit-learn
+numpy
+matplotlib
+tqdm
+seaborn
+pytorch-grad-cam
+huggingface_hub
