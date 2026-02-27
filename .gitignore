@@ -1,24 +1,58 @@
-# Python cache and venv
+# ------------------------------
+# Python
+# ------------------------------
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual environments
 mlenv/
 venv/
-.env
+.env/
 
-# Model weights
+# ------------------------------
+# ML / Model Files
+# ------------------------------
 *.pth
 *.pt
+*.onnx
 models/
+
+# Large model folders
+meditron-7b/
 BioMistral/
 
-# Streamlit cache
+# ------------------------------
+# Data files
+# ------------------------------
+data/
+Brain_Data_Organised/
+BrainCT_Split/
+Dataset_Extracted/
+OvarianCancerData/
+brain-mri data/
+
+*.zip
+*.tar
+*.gz
+
+# CSV (Uncomment if generated)
+# *.csv
+
+# ------------------------------
+# Streamlit
+# ------------------------------
 .streamlit/
 .cache/
 
-# Data files
-data/
-*.zip
+# ------------------------------
+# Logs / Results
+# ------------------------------
+results/
+*.log
 
-# System files
+# ------------------------------
+# OS Files
+# ------------------------------
 .DS_Store
 Thumbs.db
