@@ -13,10 +13,7 @@ venv/
 # ------------------------------
 # ML / Model Files
 # ------------------------------
-*.pth
-*.pt
-*.onnx
-models/
+
 
 # Large model folders
 meditron-7b/
